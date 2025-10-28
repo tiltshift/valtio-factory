@@ -1,4 +1,4 @@
-import { derive } from 'valtio/utils';
+import { derive } from 'derive-valtio';
 import { WithContext } from './types';
 
 export type DerivedProps<State extends {}, Context extends {}, Actions extends {}, U extends {}> = {
