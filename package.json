@@ -56,7 +56,6 @@
     "test": "jest",
     "typecheck": "yarn tsc -p tsconfig.json --noEmit",
     "release": "release-it",
-    "prepare": "husky install",
     "reinstall": "rm -rf node_modules yarn.lock && yarn install"
   },
   "lint-staged": {
