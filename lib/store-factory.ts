@@ -1,6 +1,6 @@
 import { proxy, ref, snapshot, subscribe } from 'valtio';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import type { derive } from 'valtio/utils';
+import type { derive } from 'derive-valtio';
 import { Actions, composeActions } from './compose-actions';
 import { combineDerivedProps, createDerived, DerivedProps } from './create-derived';
 import { ParametersAfterSecond, Snapshot, UnsubscribeFn, WithContext } from './types';
