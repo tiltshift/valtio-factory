@@ -41,7 +41,7 @@
     ".ts": "eslint --fix"
   },
   "peerDependencies": {
-    "valtio": ">=1.12"
+    "valtio": ">=1.12.0"
   },
   "devDependencies": {
     "@commitlint/cli": "17.1.2",
