@@ -1,5 +1,7 @@
 
 
+## [2.0.1](https://github.com/tiltshift/valtio-factory/compare/1.0.2...2.0.1) (2025-10-29)
+
 ## [1.0.2](https://github.com/mfellner/valtio-factory/compare/1.0.1...1.0.2) (2022-09-26)
 
 
