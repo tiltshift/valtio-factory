@@ -1,9 +1,15 @@
-module.exports = {
+export default {
   projects: [
     {
       displayName: 'test',
       preset: 'ts-jest',
       coveragePathIgnorePatterns: ['/node_modules/', '/example/'],
+      extensionsToTreatAsEsm: ['.ts', '.tsx'],
+      globals: {
+        'ts-jest': {
+          useESM: true,
+        },
+      },
     },
     {
       displayName: 'lint',
