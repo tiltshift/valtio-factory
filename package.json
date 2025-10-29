@@ -35,8 +35,22 @@
   "files": [
     "dist/"
   ],
+  "targets": {
+    "main": {
+      "source": "lib/index.ts",
+      "distDir": "./dist"
+    },
+    "module": {
+      "source": "lib/index.ts",
+      "distDir": "./dist"
+    },
+    "types": {
+      "source": "lib/index.ts",
+      "distDir": "./dist"
+    }
+  },
   "scripts": {
-    "start": "parcel --dist-dir build example/index.html",
+    "start": "parcel serve --dist-dir build example/index.html --no-source-maps",
     "build": "parcel build",
     "clean": "rm -rf dist/ .parcel-cache/",
     "test": "jest",
@@ -54,23 +68,24 @@
   "devDependencies": {
     "@commitlint/cli": "17.1.2",
     "@commitlint/config-conventional": "17.1.0",
-    "@parcel/packager-ts": "2.7.0",
-    "@parcel/transformer-typescript-types": "2.7.0",
+    "@parcel/packager-ts": "2.16.0",
+    "@parcel/transformer-typescript-types": "2.16.0",
     "@release-it/conventional-changelog": "5.1.0",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.4.0",
     "@types/jest": "29.0.3",
+    "@types/node": "^24.9.2",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
-    "@typescript-eslint/eslint-plugin": "5.38.1",
-    "@typescript-eslint/parser": "5.38.1",
-    "eslint": "8.24.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^8.57.0",
     "eslint-plugin-valtio": "0.6.0",
     "jest": "29.0.3",
     "jest-environment-jsdom": "29.0.3",
     "jest-runner-eslint": "1.1.0",
     "lint-staged": "13.0.3",
-    "parcel": "2.7.0",
+    "parcel": "2.16.0",
     "process": "^0.11.10",
     "react": "18.2.0",
     "react-dom": "18.2.0",
