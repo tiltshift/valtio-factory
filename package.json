@@ -1,6 +1,6 @@
 {
   "name": "@tiltshift/valtio-factory",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Create and compose valtio state using the factory pattern.",
   "author": "Maximilian Fellner <mail@mfellner.eu>",
   "repository": "https://github.com/tiltshift/valtio-factory",

@@ -1,3 +1,7 @@
+
+
+## [2.0.3](https://github.com/tiltshift/valtio-factory/compare/2.0.1...2.0.3) (2025-10-29)
+
 ### Updates
 
 Adding support for Valtio 2.0 and converting to an ES Module.
