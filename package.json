@@ -25,7 +25,8 @@
     "node": ">=12.7.0"
   },
   "files": [
-    "dist/"
+    "dist/",
+    "lib/"
   ],
   "scripts": {
     "start": "parcel --dist-dir build example/index.html",
@@ -36,7 +37,7 @@
     "release": "release-it",
     "prepare": "husky install",
     "reinstall": "rm -rf node_modules yarn.lock && yarn install",
-    "postinstall": "yarn build"
+    "postinstall": "yarn; yarn build"
   },
   "lint-staged": {
     ".ts": "eslint --fix"
